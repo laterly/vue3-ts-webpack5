@@ -1,16 +1,17 @@
 import { RouteRecordRaw } from 'vue-router';
+import { RoutePath } from './constant';
 import Home from '@/pages/home/index.vue';
 
 const mainRoutes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'LayoutHome',
+    redirect: RoutePath.Home,
+  },
+  {
+    path: RoutePath.Home,
     component: Home,
     meta: {
       title: '首页',
-      icon: 'shouye',
-      hidden: false,
-      keepAlive: false,
     },
   },
 ];
