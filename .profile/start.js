@@ -32,9 +32,10 @@ compiler.hooks.invalid.tap('invalid', () => {
 
 compiler.hooks.done.tap('done', async stats => {
   clearConsole();
-  if (isFirstCompile) {
-    printInstructions();
-    isFirstCompile = false;
-  }
+  printInstructions();
+  // if (isFirstCompile) {
+  //   printInstructions();
+  //   isFirstCompile = false;
+  // }
 });
 runServer();
