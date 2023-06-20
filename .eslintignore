@@ -1,0 +1,5 @@
+/config
+/node_modules
+project.config.js
+tsconfig.json
+.stylelintrc
