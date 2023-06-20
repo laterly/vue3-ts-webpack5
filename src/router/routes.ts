@@ -1,8 +1,7 @@
 import { RouteRecordRaw } from 'vue-router';
 import Home from '@/pages/home/index.vue';
 
-//后台管理路由，用于渲染左侧菜单栏
-const adminRoutes: RouteRecordRaw[] = [
+const mainRoutes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'LayoutHome',
@@ -16,6 +15,6 @@ const adminRoutes: RouteRecordRaw[] = [
   },
 ];
 //合并路由表
-const routes: RouteRecordRaw[] = [...adminRoutes];
+const routes: RouteRecordRaw[] = [...mainRoutes];
 export default routes;
-export { adminRoutes };
+export { mainRoutes };
