@@ -1,4 +1,4 @@
-# vue3-ts-webpack5 基础模板
+# Vue3-Ts-Webpack5 基础模板
 
 ## 安装
 
