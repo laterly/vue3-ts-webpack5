@@ -15,7 +15,7 @@ npm install -g pnpm
 ```sh
 # 安装依赖 根目录
 pnpm install
-# 启动开发服务器，这种方式是基于webpack的启动方式
+# 启动开发服务器
 pnpm dev
 # 打包文件分析
 pnpm build:analyze
