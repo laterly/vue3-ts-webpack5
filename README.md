@@ -10,7 +10,7 @@ npm install -g pnpm
 
 ## 开发调试
 
-运行 `pnpm dev` 或者 `pnpm dev:vite`:
+运行 `pnpm dev`
 
 ```sh
 # 安装依赖 根目录
