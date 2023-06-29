@@ -18,9 +18,20 @@ const defaultConfig = {
     ],
   },
   devServer: {
+    historyApiFallback: true,
+    compress: true,
     port: 3000,
     hot: true,
     host: '0.0.0.0',
+    client: {
+      // logging: '',
+      reconnect: false,
+      overlay: {
+        errors: true,
+        warnings: false,
+        runtimeErrors: true,
+      },
+    },
   },
   env: {},
   lessOptions: {},

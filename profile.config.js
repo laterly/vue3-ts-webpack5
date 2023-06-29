@@ -23,19 +23,7 @@ module.exports = defineConfig({
   env: {
     ...envConfig.global,
   },
-  devServer: {
-    historyApiFallback: true,
-    compress: true,
-    port: 3000,
-    hot: true,
-    host: '0.0.0.0',
-    client: {
-      overlay: {
-        errors: true,
-        warnings: false,
-      },
-    },
-  },
+  devServer: {},
   //less-laoder配置
   less: {
     lessOptions: {
